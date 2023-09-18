@@ -1,0 +1,32 @@
+multiple useStates
+  // const [enteredTitle, setEnteredTitle] = useState(''); 
+  // const [enteredAmount, setEnteredAmount] = useState(''); 
+  // const [enteredDate, setEnteredDate] = useState(''); 
+
+ updating states without using previous state (BAD) 
+ // const titleChangeHandler = (event) => {
+    // NOT A GOOD WAY TO UPDATE STATES
+    // setUserInput({
+    //   ...userInput,
+    //   enteredTitle: event.target.value,
+    // });
+    }
+
+setting handlers individually rather than using 1 function 
+  // const titleChangeHandler = (event) => {
+  //   setUserInput((prevState) => {
+  //     return {...prevState, enteredTitle: event.target.value};
+  //   });
+  // };
+
+  // const amountChangeHandler = (event) => {
+  //   setUserInput((prevState) => {
+  //     return {...prevState, enteredAmount: event.target.value};
+  //   });
+  // };
+
+  // const dateChangeHandler = (event) => {
+  //   setUserInput((prevState) => {
+  //     return {...prevState, enteredDate: event.target.value};
+  //   });
+  // };
